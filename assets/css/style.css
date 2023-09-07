@@ -54,7 +54,7 @@ form button:hover{
     background-color: rgba(54, 132, 204, 0.692);
 }
 
-.calculadora {
+.calculator {
     width: 500px;
     margin-top: 300px;
     background-color: #1100ff;
@@ -84,26 +84,26 @@ form button:hover{
     background-color: #1100ff79;
 }
 
-.btn-eq{
+.total{
     background-color: #000000;
 }
 
-.btn-eq:hover {
+.total:hover {
     background-color: #1100ff79;
 }
 
-.btn-clear {
+.clear {
     background-color:  #000000;
 }
 
-.btn-clear:hover{
+.clear:hover{
     background-color: #1100ff79;
 }
 
-.btn-del {
+.del {
     background-color:  #000000;
 }
 
-.btn-del:hover {
+.del:hover {
     background-color: #1100ff79;
 }

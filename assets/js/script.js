@@ -16,16 +16,16 @@ function Calculadora() {
   this.clickBtn = function () {
     document.addEventListener("click", (e) => {
       const el = e.target;
-      if (el.classList.contains("btn-num")) {
+      if (el.classList.contains("num")) {
         this.btnOnDisplay(el.innerHTML);
       }
-      if (el.classList.contains("btn-del")) {
+      if (el.classList.contains("del")) {
         this.delOneButton();
       }
-      if (el.classList.contains("btn-clear")) {
+      if (el.classList.contains("clear")) {
         this.clearAll();
       }
-      if (el.classList.contains("btn-eq")) {
+      if (el.classList.contains("total")) {
         this.resFinish();
       }
 
