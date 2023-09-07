@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-left: 195px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid black;
+}
+
+form button{
+    border: none;
+    background-color: rgb(58, 107, 199);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background-color: rgba(54, 132, 204, 0.692);
+}
+
+.calculadora {
+    width: 500px;
+    margin-top: 300px;
+    background-color: #1100ff;
+    padding: 10px;
+    box-shadow: 10px 10px 10px ;
+    
+}   
+    
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 11px;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #1100ff79;
+}
+
+.btn-eq{
+    background-color: #000000;
+}
+
+.btn-eq:hover {
+    background-color: #1100ff79;
+}
+
+.btn-clear {
+    background-color:  #000000;
+}
+
+.btn-clear:hover{
+    background-color: #1100ff79;
+}
+
+.btn-del {
+    background-color:  #000000;
+}
+
+.btn-del:hover {
+    background-color: #1100ff79;
+}
